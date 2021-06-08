@@ -56,6 +56,45 @@ public class CS_2019_B_85 {
         }
         return index;
     }
+	
+	//Q3
+	
+	//g - returns the rightest node / maximal number in tree
+	//something - returns the biggest number that are smaller than number
+	
+	//a. 70
+	//b. returns the rightest node / node that contains maximal number in tree - if no such node returns null
+	//c. 30
+	//d. returns the biggest number that are smaller than num, if no such number returns -1
+	
+	//Q4
+	
+	//a. A<-E<-C<-B
+	//         C<-D
+	//b.1. object<-Z<-A
+	//b2.a - compilation error - A and Z are potatos and oranges
+	//b2.b - works
+	//b2.c - running error - cannot convert Z to A
+	//b3.d - works
+	//b3.e - works
+	
+	//c.a - work
+	//c.b - works
+	//c.c - compilation error - no method m in A
+	//c.d - compilation error - no method m in C
+	//c.e - compilation error - no method m in A
+	
+	//Q5
+	
+	//what - removes dublicates from list
+	//secret - puts all zeroes in the end of the list
+	
+	//a. {2,6,3,4,7,1}
+	//b. removies duplicated
+	//c. {2,6,3,4,7,4,1,3,0,0,0}, the method returns 3.
+	//d. puts all zeroes in the end of the list
+	
+	
 
 
 
