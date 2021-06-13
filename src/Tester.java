@@ -77,6 +77,9 @@ public class Tester {
         System.out.println(CS_2020_A_85.strictlyIncreasing(a1));
 
 
+        System.out.println("**S_2020_A_87**");
+        int[][] mat5 = new int [3][3];
+        System.out.println(CS_2020_A_87.totalWays(mat5,3));
     }
 
 }
