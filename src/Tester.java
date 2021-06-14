@@ -78,8 +78,12 @@ public class Tester {
 
 
         System.out.println("**S_2020_A_87**");
+        //Q1
         int[][] mat5 = new int [3][3];
         System.out.println(CS_2020_A_87.totalWays(mat5,3));
+        //Q2
+        int[] a2 = {1,2,3,4,5,6,7,8,9,20,54};
+        CS_2020_A_87.printTriplets(a2,40);
     }
 
 }

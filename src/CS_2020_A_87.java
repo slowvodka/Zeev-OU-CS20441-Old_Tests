@@ -39,4 +39,36 @@ public class CS_2020_A_87 {
     }
 
     //Q2
+    public static void printTriplets (int [] a, int num){
+        int h;
+        for (h = a.length-1 ; h> 1 && a[h] > num ; h--);
+        if (h<2)
+            return;
+        int l=0;
+        int m=1;
+        while (l<h)
+        {
+            if (m>=h)
+            {
+                l++;
+                m=l+1;
+                continue;
+            }
+            if (a[l]*a[m]*a[h]==num)
+            {
+                System.out.println(a[l]+" "+a[m]+" "+a[h]);
+                m++;
+                h--;
+                continue;
+            }
+            if (a[l]*a[m]*a[h]>num)
+            {
+                h--;
+                continue;
+            }
+            m++;
+        }
+    }
+
+    //Q3
 }
