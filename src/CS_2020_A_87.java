@@ -71,4 +71,48 @@ public class CS_2020_A_87 {
     }
 
     //Q3
+	
+	// what - returns the depth of the tree, if root == null returns 0
+	// secret - sums the level x of the tree to array a position x
+	
+	// a. returns 5
+	// b. what - returns the depth of the tree, if root == null returns 0
+	// c. 50, 60, 30, 80, 70
+	// d. sums the level x of the tree to array a position x
+	
+	//Q4
+	
+	//a.
+	/*
+	a1	1	-
+	a2	5	-
+	ab	1	B
+	b1	1	B
+	b2	5	B
+	c	5	-
+	*/
+	
+	//b.
+	/*
+	Aobject 1
+	BA
+	Bobject 3
+	BA 5
+	Bobject 6
+	Aobject
+	BB
+	Aobject
+	Aobject
+	*/
+	
+	//Q5
+	
+	// f - length of list
+	// something - how many nodes increase and then descrease
+	
+	// a. 9
+	// b. length of list, if empty returns 0
+	// c. 4
+	// d. 5
+	// e. how many nodes increase and then deacrease. if empty list returns 0, if only decrease returns 1.
 }
