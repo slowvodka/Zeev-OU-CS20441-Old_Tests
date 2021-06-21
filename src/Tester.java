@@ -84,6 +84,17 @@ public class Tester {
         //Q2
         int[] a2 = {1,2,3,4,5,6,7,8,9,20,54};
         CS_2020_A_87.printTriplets(a2,40);
+
+        System.out.println("**CS_2020_B_81**");
+
+        //Q1
+        a2 = new int[]{5,10,20,50};
+        System.out.println(CS_2020_B_81.makeSum(a2,4,40));
+
+        //Q2
+        a2 = new int[]{10,4,2,5,6,3,8,1,5,9};
+        CS_2020_B_81.minimumSubK(a2,3);
+
     }
 
 }
