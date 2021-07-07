@@ -1,8 +1,7 @@
 public class CS_2021_B_60 {
 
 	/*
-	Vladimir Slobodnik appeal
-	ID 305852402
+
 	
 	Dear examiner, I did not change anything in the code. the only
 	additions i made are in the documentation to make it more clear
