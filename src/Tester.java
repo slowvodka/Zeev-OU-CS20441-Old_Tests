@@ -1,6 +1,7 @@
 public class Tester {
 
     public static void main (String[] args) {
+        /*
         System.out.println("**CS_2019_A_84**");
         //Q1
         System.out.println(CS_2019_A_84.sumPower3(1));
@@ -94,7 +95,13 @@ public class Tester {
         //Q2
         a2 = new int[]{10,4,2,5,6,3,8,1,5,9};
         CS_2020_B_81.minimumSubK(a2,3);
+        */
+        System.out.println("**CS_2021_B_60**");
 
+        //Q2
+        int[] a3 = new int[]{1,4,13,6,0,19};
+
+        System.out.println(CS_2021_B_60.smallestSub(a3,2));
     }
 
 }
